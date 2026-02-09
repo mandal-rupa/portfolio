@@ -609,7 +609,7 @@ body {
 
   /* HERO */
   .hero {
-    padding: 24px 16px;
+    padding: 24px 16 48px;
     min-height: auto;
   }
 
@@ -682,6 +682,7 @@ body {
     text-align: center;
   }
 }
+
 
 
 
