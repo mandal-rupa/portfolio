@@ -656,6 +656,7 @@ body {
   width: 160px;
   height: 160px;
   margin-top: 20px;
+  box-shadow: none;
 }
 
 .hero-image img {
@@ -680,6 +681,7 @@ body {
     text-align: center;
   }
 }
+
 
 
 
