@@ -654,9 +654,9 @@ body {
   }
 
   .hero-image {
-  width: 160px;
-  height: 160px;
-  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
   box-shadow: none;
 }
 
@@ -682,6 +682,7 @@ body {
     text-align: center;
   }
 }
+
 
 
 
