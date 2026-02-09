@@ -605,7 +605,7 @@ body {
     display: block;
   }
 }
-/* ===== MOBILE OVERFLOW & HERO FIX ===== */
+/*MOBILE OVERFLOW & HERO FIX */
 @media (max-width: 600px) {
 
   html, body {
@@ -651,7 +651,7 @@ body {
     max-width: 320px;
   }
 }
-/* ===== GLOBAL MOBILE OVERFLOW FIX ===== */
+/*GLOBAL MOBILE OVERFLOW FIX */
 @media (max-width: 600px) {
 
   html, body {
@@ -711,6 +711,25 @@ body {
     font-size: 22px;
   }
 }
+/* FIX TEXT BREAKING ON MOBILE */
+@media (max-width: 600px) {
+
+  h1, h2 {
+    word-break: normal;
+    overflow-wrap: normal;
+    white-space: normal;
+    max-width: 100%;
+  }
+
+  .hero,
+  .hero-container,
+  .hero-left {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 16px;
+  }
+}
+
 
 
 
