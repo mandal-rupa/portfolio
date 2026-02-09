@@ -729,6 +729,30 @@ body {
     padding: 0 16px;
   }
 }
+/* FINAL MOBILE FULL-WIDTH FIX  */
+@media (max-width: 600px) {
+
+  html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  section,
+  .section,
+  .container,
+  .about,
+  .about-section,
+  .about-inner {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+}
+
 
 
 
