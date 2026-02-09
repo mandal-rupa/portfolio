@@ -582,3 +582,27 @@ body {
     margin: 0 12px;
   }
 }
+/* HERO MOBILE FIX */
+@media (max-width: 600px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero,
+  .hero-content,
+  .hero-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-img,
+  .hero img {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 20px;
+    display: block;
+  }
+}
+
