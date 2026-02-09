@@ -698,6 +698,20 @@ body {
     max-width: 320px;
   }
 }
+/* FINAL MOBILE NAVBAR FIX */
+@media (max-width: 600px) {
+
+  .nav-links,
+  .nav-menu,
+  .navbar ul {
+    display: none !important;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+}
+
 
 
 
