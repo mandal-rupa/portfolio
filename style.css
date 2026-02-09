@@ -605,4 +605,51 @@ body {
     display: block;
   }
 }
+/* ===== MOBILE OVERFLOW & HERO FIX ===== */
+@media (max-width: 600px) {
+
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .hero,
+  .hero-container,
+  .hero-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .hero-left,
+  .hero-right {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 1.2;
+    word-break: break-word;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .btn,
+  button {
+    width: 90%;
+    max-width: 320px;
+  }
+}
+
 
