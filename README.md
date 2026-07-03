@@ -3,7 +3,7 @@
 This is my personal portfolio website showcasing my skills, projects, and background as an aspiring Full Stack Developer.
 
 ## Live Demo
-https://mandal-rupa.github.io/portfolio/
+```https://mandal-rupa.github.io/portfolio/```
 
 ## Tech Stack
 - HTML  
